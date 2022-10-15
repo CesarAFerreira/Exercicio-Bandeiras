@@ -1,0 +1,90 @@
+*{
+    background-color: #ecececf8;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.bandeiras{
+    text-align: center;
+}
+.classificacao{
+    margin: 50px auto 50px 100px;
+}
+
+.card-container1 {
+  width: 500px;
+  height: 300px;
+  float: left;
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+.card-container2 {
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 100px;
+  }
+
+.d-bloco1 {
+  background-color: red;
+  width: 500px;
+  height: 125px;
+}
+.d-bloco2 {
+  background-color: white;
+  width: 500px;
+  height: 50px;
+}
+.d-bloco3 {
+  background-color: red;
+  width: 500px;
+  height: 125px;
+  margin-bottom: 10px;
+}
+
+.linha-vertical {
+  background-color: white;
+  width: 50px;
+  height: 125px;
+  margin-left: 30%;
+}
+
+.linha-vertical1 {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  margin-left: 30%;
+}
+
+.uc-bloco1 {
+  background-color: blue;
+  width: 500px;
+  height: 50%;
+}
+
+.uc-bloco2 {
+  background-color: yellow;
+  width: 500px;
+  height: 50%;
+  margin-bottom: 10px;
+}
+
+.rs-bloco1 {
+  background-color: white;
+  width: 500px;
+  height: 33%;
+}
+.rs-bloco2 {
+  background-color: blue;
+  width: 500px;
+  height: 33%;
+}
+.rs-bloco3 {
+  background-color: red;
+  width: 500px;
+  height: 33%;
+  margin-bottom: 10px;
+}
