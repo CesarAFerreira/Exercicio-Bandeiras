@@ -11,9 +11,26 @@
   margin: 50px auto 50px 100px;
 }
 .classificacao1 {
-  margin: 450px 0 50px 100px;
+  margin: 100px 0 50px 100px;
 }
-.local {
+.bd {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.bd-br {
+  margin-left: 0;
+  margin-top: -25px;
+}
+
+.bd-gr {
+  margin-left: 1300px;
+  margin-top: 15px;
+}
+
+.bd-eua {
+  margin-left: 700px;
   margin-top: 15px;
 }
 
@@ -36,9 +53,8 @@
 .card-container3 {
   width: 500px;
   height: 300px;
-  float: left;
   margin-left: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 
 .d-bloco1 {
@@ -105,19 +121,27 @@
 .ba-bloco1 {
   width: 33%;
   height: 300px;
-  background-color: blue;
+  background-color: rgb(4, 17, 207);
   float: left;
 }
 .ba-bloco2 {
   width: 33%;
   height: 300px;
-  background-color: yellow;
+  background-color: rgba(255, 187, 0, 0.781);
   float: left;
+}
+.ba-figure {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  align-items: center;
+  margin: 70px 0 0 10px;
+  
 }
 .ba-bloco3 {
   width: 33%;
   height: 300px;
-  background-color: blue;
+  background-color: rgb(4, 17, 207);
   float: left;
   margin-bottom: 15px;
 }
@@ -125,36 +149,38 @@
 .li-bloco1 {
   width: 500px;
   height: 25%;
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.808);
 }
 .li-bloco2 {
   width: 500px;
   height: 50%;
   background-color: white;
 }
+.li-figure {
+  width: 149px;
+  height: 149px;
+  position: relative;
+  
+  margin: 1px 0 0 180px;
+}
 .li-bloco3 {
   width: 500px;
   height: 25%;
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.808);
 }
 
-.local1 {
-  margin-left: 100px;
-  margin-top: 15px;
-}
 .br-corpo {
   width: 500px;
   height: 300px;
   margin-left: 100px;
   background-color: green;
+  float: left;
 }
 
 .br-losango {
-  top: 50px;
   margin: 50px auto;
   width: 0;
   height: 0;
-
   border-left: 190px solid green;
   border-right: 190px solid green;
   border-bottom: 100px solid yellow;
@@ -162,7 +188,6 @@
 }
 .br-losango::before {
   content: "";
-
   border-left: 180px solid transparent;
   border-right: 200px solid transparent;
   border-top: 100px solid yellow;
@@ -174,7 +199,7 @@
 }
 
 .br-circulo {
-  top: -70px;
+  top: -120px;
   background-color: blue;
   width: 140px;
   height: 140px;
@@ -183,12 +208,91 @@
   margin-left: 180px;
 }
 
-.br-faixa{
-	position: absolute;
-	margin-top: -150px;
+.br-faixa {
+  position: absolute;
+  margin-top: -200px;
   margin-left: 180px;
-	background-color: #fff;
-	width: 142px;
-	height: 15px;
-  transform: rotate(20deg);	
+  background-color: #fff;
+  width: 142px;
+  height: 15px;
+  transform: rotate(20deg);
+}
+
+.eua-corpo {
+  width: 500px;
+  height: 300px;
+  margin-left: 700px;
+  margin-top: -310px;
+  background-color: red;
+  float: left;
+}
+
+.eua-faixa-branca {
+  width: 500px;
+  height: 23px;
+  margin-top: 23px;
+  background-color: white;
+}
+
+.eua-caixa-azul {
+  width: 230px;
+  height: 161px;
+  background-color: blue;
+  margin-top: -276px;
+}
+
+.gr-corpo {
+  width: 500px;
+  height: 300px;
+  display: table;
+  margin-left: 1300px;
+  margin-top: -645px;
+  background-color: rgb(0, 153, 255);
+}
+
+.gr-faixa-branca {
+  width: 500px;
+  height: 33px;
+  margin-top: 33px;
+  background-color: white;
+  float: left;
+}
+
+.gr-caixa {
+  width: 200px;
+  height: 165px;
+  background-color: rgb(0, 153, 255);
+  position: relative;
+}
+
+.gr-bloco1 {
+  width: 66px;
+  height: 165px;
+  background-color: rgb(0, 153, 255);
+  position: relative;
+}
+
+.gr-bloco3 {
+  width: 200px;
+  height: 66px;
+  background-color: rgb(0, 153, 255);
+  position: relative;
+  margin-top: 0;
+}
+
+.gr-linha-horizontal {
+  width: 200px;
+  height: 32px;
+  margin-top: -99px;
+  background-color: white;
+  position: relative;
+}
+
+.gr-linha-vertical {
+  width: 32px;
+  height: 165px;
+  margin: -164px 0 0 90px;
+  background-color: white;
+  align-items: center;
+  position: relative;
 }
