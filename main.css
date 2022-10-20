@@ -58,61 +58,61 @@
 }
 
 .d-bloco1 {
-  background-color: red;
+  background-color: rgba(236, 3, 3, 0.897);
   width: 500px;
   height: 125px;
 }
 .d-bloco2 {
-  background-color: white;
+  background-color: #fff;
   width: 500px;
   height: 50px;
 }
 .d-bloco3 {
-  background-color: red;
+  background-color: rgba(236, 3, 3, 0.897);
   width: 500px;
   height: 125px;
   margin-bottom: 10px;
 }
 
 .linha-vertical {
-  background-color: white;
+  background-color: #fff;
   width: 50px;
   height: 125px;
   margin-left: 30%;
 }
 
 .linha-vertical1 {
-  background-color: white;
+  background-color: #fff;
   width: 50px;
   height: 50px;
   margin-left: 30%;
 }
 
 .uc-bloco1 {
-  background-color: blue;
+  background-color: rgba(7, 7, 233, 0.897);
   width: 500px;
   height: 50%;
 }
 
 .uc-bloco2 {
-  background-color: yellow;
+  background-color: rgba(219, 219, 16, 0.911);
   width: 500px;
   height: 50%;
   margin-bottom: 10px;
 }
 
 .rs-bloco1 {
-  background-color: white;
+  background-color: #fff;
   width: 500px;
   height: 33%;
 }
 .rs-bloco2 {
-  background-color: blue;
+  background-color: rgba(7, 7, 233, 0.897);
   width: 500px;
   height: 33%;
 }
 .rs-bloco3 {
-  background-color: red;
+  background-color: rgba(236, 3, 3, 0.897);
   width: 500px;
   height: 33%;
   margin-bottom: 10px;
@@ -121,7 +121,7 @@
 .ba-bloco1 {
   width: 33%;
   height: 300px;
-  background-color: rgb(4, 17, 207);
+  background-color: rgba(7, 7, 233, 0.897);
   float: left;
 }
 .ba-bloco2 {
@@ -136,12 +136,11 @@
   position: relative;
   align-items: center;
   margin: 70px 0 0 10px;
-  
 }
 .ba-bloco3 {
   width: 33%;
   height: 300px;
-  background-color: rgb(4, 17, 207);
+  background-color: rgba(7, 7, 233, 0.897);
   float: left;
   margin-bottom: 15px;
 }
@@ -154,13 +153,13 @@
 .li-bloco2 {
   width: 500px;
   height: 50%;
-  background-color: white;
+  background-color: #fff;
 }
 .li-figure {
   width: 149px;
   height: 149px;
   position: relative;
-  
+
   margin: 1px 0 0 180px;
 }
 .li-bloco3 {
@@ -173,7 +172,7 @@
   width: 500px;
   height: 300px;
   margin-left: 100px;
-  background-color: green;
+  background-color: rgb(10, 78, 10);
   float: left;
 }
 
@@ -181,8 +180,8 @@
   margin: 50px auto;
   width: 0;
   height: 0;
-  border-left: 190px solid green;
-  border-right: 190px solid green;
+  border-left: 190px solid rgb(10, 78, 10);
+  border-right: 190px solid rgb(10, 78, 10);
   border-bottom: 100px solid yellow;
   position: relative;
 }
@@ -208,14 +207,13 @@
   margin-left: 180px;
 }
 
-.br-faixa {
-  position: absolute;
-  margin-top: -200px;
-  margin-left: 180px;
-  background-color: #fff;
-  width: 142px;
-  height: 15px;
-  transform: rotate(20deg);
+.br-logo {
+  width: 150px;
+  height: 150px;
+  margin-left: -9px;
+  margin-top: -4px;
+  position: relative;
+  border-radius: 50%;
 }
 
 .eua-corpo {
@@ -223,7 +221,7 @@
   height: 300px;
   margin-left: 700px;
   margin-top: -310px;
-  background-color: red;
+  background-color: rgb(252, 23, 23);
   float: left;
 }
 
@@ -231,14 +229,18 @@
   width: 500px;
   height: 23px;
   margin-top: 23px;
-  background-color: white;
+  background-color: #fff;
 }
 
 .eua-caixa-azul {
   width: 230px;
   height: 161px;
-  background-color: blue;
+  background-color: rgb(3, 1, 155);
   margin-top: -276px;
+}
+.eua-star {
+  width: 230px;
+  height: 161px;
 }
 
 .gr-corpo {
@@ -254,7 +256,7 @@
   width: 500px;
   height: 33px;
   margin-top: 33px;
-  background-color: white;
+  background-color: #fff;
   float: left;
 }
 
@@ -284,7 +286,7 @@
   width: 200px;
   height: 32px;
   margin-top: -99px;
-  background-color: white;
+  background-color: #fff;
   position: relative;
 }
 
@@ -292,7 +294,7 @@
   width: 32px;
   height: 165px;
   margin: -164px 0 0 90px;
-  background-color: white;
+  background-color: #fff;
   align-items: center;
   position: relative;
 }
